@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import ElementUI from 'element-ui'
+//  引入全局样式
+import './assets/styles/index.scss';
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
